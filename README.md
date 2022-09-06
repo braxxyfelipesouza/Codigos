@@ -1,2 +1,2 @@
-# Codigos-C
-Aqui fica todos os meus codigos C/ C#
+# Codigos 
+Aqui fica todos os meus codigos em geral
