@@ -1,0 +1,106 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     tecla_lida
+006     pergunta1
+007     x
+008     tony.resposta
+008     lcd_init.i
+008     MAIN.@SCRATCH1
+009     lcd_putc.c
+009     le_teclado.button
+009     lcd_init.@SCRATCH1
+00A     lcd_gotoxy.x
+00A     @delay_ms1.P1
+00A     lcd_init.@SCRATCH2
+00B     lcd_gotoxy.y
+00C     lcd_gotoxy.address
+00D     lcd_gotoxy.@SCRATCH1
+00E     lcd_send_byte.address
+00F     lcd_send_byte.n
+010     lcd_send_byte.@SCRATCH1
+011     lcd_send_nibble.nibble
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB-FBC CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE-FBF CCP_1
+FBF     CCP_1_HIGH
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+033E  @delay_ms1
+0004  LCD_INIT_STRING
+0366  lcd_send_nibble
+03A4  lcd_send_byte
+03E0  lcd_init
+043A  lcd_gotoxy
+045C  lcd_putc
+05BE  MAIN
+0018  @const71
+0036  @const72
+0054  @const73
+0074  @const74
+0092  @const75
+00B6  @const77
+00D6  @const80
+00F6  @const81
+011A  @const82
+013A  @const83
+015C  @const84
+017E  @const92
+01A4  @const93
+01C4  @const94
+01E6  @const102
+0208  @const103
+022A  @const104
+024C  @const105
+0270  @const106
+0294  @const112
+02B8  @const113
+02DE  @const114
+0300  @const115
+0320  @const116
+0564  tony
+059C  @goto10448
+04A0  le_teclado
+05BE  @cinit
+
+Project Directory:
+    E:\quiz\
+
+Project Files:
+    main.c
+    18f4550.H
+    flex_lcd.c
+
+Units:
+    main.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

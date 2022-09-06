@@ -1,0 +1,145 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     tecla_lida
+006     alternativa
+007     pontos
+008     feedback.alternativa
+008     lcd_init.i
+008     MAIN.@SCRATCH1
+009     le_teclado.button
+009     @PRINTF_D_61.P1
+009     lcd_init.@SCRATCH1
+00A     @PRINTF_D_61.P1
+00A     lcd_init.@SCRATCH2
+00B     @PRINTF_D_61.@SCRATCH1
+00C     @PRINTF_D_61.@SCRATCH2
+00D     @PRINTF_D_61.@SCRATCH3
+00E     @PRINTF_D_61.@SCRATCH4
+00F     lcd_putc.c
+00F     @DIV88.P1
+010     @delay_ms1.P1
+010     @DIV88.P2
+010     lcd_gotoxy.x
+011     lcd_gotoxy.y
+011     @DIV88.@SCRATCH1
+012     lcd_gotoxy.address
+013     lcd_gotoxy.@SCRATCH1
+014     lcd_send_byte.address
+015     lcd_send_byte.n
+016     lcd_send_byte.@SCRATCH1
+017     lcd_send_nibble.nibble
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB-FBC CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE-FBF CCP_1
+FBF     CCP_1_HIGH
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+06F8  @delay_ms1
+0004  LCD_INIT_STRING
+0720  lcd_send_nibble
+075E  lcd_send_byte
+079A  lcd_init
+07F2  lcd_gotoxy
+0814  lcd_putc
+091C  feedback
+0954  @goto10116
+0A66  MAIN
+0018  @const72
+003A  @const73
+005C  @const74
+007E  @const75
+00A0  @const76
+00C2  @const77
+00E4  @const78
+0106  @const79
+0128  @const80
+014A  @const82
+016C  @const83
+0976  @DIV88
+099E  @PRINTF_D_61
+018E  @const90
+01B0  @const91
+01D0  @const92
+01F2  @const93
+020E  @const94
+0230  @const95
+0252  @const96
+0274  @const98
+0296  @const99
+02B8  @const101
+02DA  @const104
+02FC  @const105
+031E  @const106
+0340  @const108
+0362  @const109
+0384  @const110
+03A6  @const112
+03C8  @const115
+03EA  @const116
+040C  @const117
+042E  @const118
+0450  @const119
+0472  @const120
+0494  @const121
+04B6  @const122
+04D8  @const123
+04FA  @const124
+051C  @const125
+053E  @const126
+0560  @const129
+0582  @const130
+05A4  @const131
+05C6  @const133
+05E8  @const134
+060A  @const135
+062C  @const137
+064E  @const140
+0670  @const142
+0692  @const143
+06B4  @const144
+06D6  @const146
+0858  le_teclado
+0A66  @cinit
+
+Project Directory:
+    E:\TuTu\tutuquizzer\quiz\
+
+Project Files:
+    main.c
+    18f4550.H
+    flex_lcd.c
+
+Units:
+    main.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

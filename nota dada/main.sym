@@ -1,0 +1,120 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     quest
+006     alternativa
+007     A
+008     B
+009     c
+00A     acertos
+00B     tecla_lida
+00C     resposta.alternativa
+00C     lcd_init.i
+00C     MAIN.@SCRATCH1
+00D     @PRINTF_D_61.P1
+00D     le_teclado.button
+00D     lcd_init.@SCRATCH1
+00E     @PRINTF_D_61.P1
+00E     lcd_init.@SCRATCH2
+00F     @PRINTF_D_61.@SCRATCH1
+010     @PRINTF_D_61.@SCRATCH2
+011     @PRINTF_D_61.@SCRATCH3
+012     @PRINTF_D_61.@SCRATCH4
+013     @DIV88.P1
+013     lcd_putc.c
+014     @DIV88.P1
+014     @delay_ms1.P2
+014     lcd_gotoxy.x
+015     lcd_gotoxy.y
+015     @DIV88.@SCRATCH1
+016     lcd_gotoxy.address
+017     lcd_gotoxy.@SCRATCH1
+018     lcd_send_byte.address
+019     lcd_send_byte.n
+01A     lcd_send_byte.@SCRATCH1
+01B     lcd_send_nibble.nibble
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB-FBC CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE-FBF CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+034A  @delay_ms1
+0004  LCD_INIT_STRING
+0372  lcd_send_nibble
+03B0  lcd_send_byte
+03EC  lcd_init
+0444  lcd_gotoxy
+0466  lcd_putc
+056E  resposta
+0692  MAIN
+0018  @const75
+0038  @const76
+0058  @const77
+007C  @const78
+009E  @const79
+00C0  @const80
+00E2  @const81
+0104  @const82
+05A2  @DIV88
+05CA  @PRINTF_D_61
+0126  @const89
+0146  @const91
+016A  @const92
+018C  @const97
+01AE  @const99
+01D2  @const107
+01F6  @const108
+0218  @const110
+023A  @const115
+025E  @const123
+0280  @const124
+02A2  @const132
+02C4  @const140
+02E6  @const149
+0308  @const153
+0328  @const157
+04AA  le_teclado
+0692  @cinit
+
+Project Directory:
+    E:\WATANABE\MICRO\MBLAB\quiz2\
+
+Project Files:
+    main.c
+    18f4550.H
+    flex_lcd.c
+
+Units:
+    main.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta

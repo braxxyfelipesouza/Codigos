@@ -1,0 +1,8 @@
+>>> Warning 203 "main.c" Line 61(1,1): Condition always TRUE
+>>> Warning 207 "main.c" Line 62(1,1): Code has no effect
+>>> Warning 202 "main.c" Line 15(5,10): Variable never used:   quest
+>>> Warning 202 "main.c" Line 17(5,6): Variable never used:   A
+>>> Warning 202 "main.c" Line 18(5,6): Variable never used:   B
+>>> Warning 202 "main.c" Line 19(5,6): Variable never used:   c
+      Memory usage:   ROM=21%      RAM=1% - 1%
+      0 Errors,  6 Warnings.
